@@ -37,7 +37,7 @@ public class ProductController {
 	@RequestMapping(method={RequestMethod.GET, RequestMethod.POST})
 	public String method(ProductBean bean, BindingResult bindingResult, String prodaction,
 			@RequestParam(name="id") String temp1, Model model) {
-//接收資料	
+//接收資料	HAHAHA
 		Map<String, String> errors = new HashMap<String, String>();
 		model.addAttribute("errors", errors);
 		
